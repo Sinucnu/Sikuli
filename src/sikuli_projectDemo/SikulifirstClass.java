@@ -12,8 +12,8 @@ import org.sikuli.script.Screen;
 public class SikulifirstClass {
 	public static void main(String [] args) throws FindFailed {
 		
-		System.setProperty("webdriver","C:\\Selenium\\Drivers\\Chrome\\ChromeDriver\\chromedriver.exe");
-		String filePath = "C:\\Selenium\\Practice\\Sikuli\\";
+		System.setProperty("webdriver","C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\drivers\\chromedriver.exe");
+		String filePath = "C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\Sikuli\\";
 		
 		Screen S = new Screen();
 		Pattern FileInuptTextBox = new Pattern(filePath + "FileTextBox.png");

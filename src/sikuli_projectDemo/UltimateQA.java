@@ -10,8 +10,8 @@ public class UltimateQA {
 	public static void main(String[] args) throws FindFailed {
 		
 
-		System.setProperty("webdriver","C:\\Selenium\\Drivers\\Chrome\\ChromeDriver\\chromedriver.exe");
-		String filePath = "C:\\Selenium\\Practice\\Sikuli\\UltimateQA\\";
+		System.setProperty("webdriver","C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\drivers\\chromedriver.exe");
+		String filePath = "C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\Sikuli\\UltimateQA\\";
 		
 		
 		WebDriver driver = new ChromeDriver();

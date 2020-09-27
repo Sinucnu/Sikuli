@@ -10,11 +10,11 @@ public class SauseDemo {
 	
 	public static void main(String[] args) throws FindFailed {
 		
-		System.setProperty("webdriver","C:\\Selenium\\Drivers\\Chrome\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver","C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\drivers\\chromedriver.exe");
 		WebDriver driver;
 		
 		
-		String filePath = "C:\\Selenium\\Practice\\Sikuli\\SauseDemo\\";
+		String filePath = "C:\\Selenium\\Practice\\sikuli_project\\bin\\sikuli_projectDemo\\Sikuli\\SauseDemo\\";
 		
 		//String loginButton = "Login.PNG";
 		//String userName = "userName.PNG";
